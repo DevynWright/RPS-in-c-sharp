@@ -25,7 +25,6 @@ namespace rockpaperscissors
                     "paper",
                     "scissors"
                 };
-
                 Random rnd = new Random();
                 int c = rnd.Next(0,3);
                 string user = Console.ReadLine();
